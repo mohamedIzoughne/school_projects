@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mozzafiato</title>
+    <link rel="shortcut icon" href="images/pizzas/pomodoro.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="content" id="content">
+      <header class="header">
+        <h1 class="restaurant-name">Mozzafiato</h1>
+        <nav>
+          <button class="button-home button-nav active">Home</button>
+          <button class="button-menu button-nav">Menu</button>
+          <button class="button-contact button-nav">Contact</button>
+        </nav>
+      </header>
+      <main class="main">
+        <div id="home" class="home sub-page active">
+          <p>Best pizza in your country</p>
+          <p>Made with passion since 1908</p>
+          <img src="images/chef.png" alt="Chef" />
+          <p>Order online or visit Morocco!</p>
+        </div>
+        <div id="contact" class="contact sub-page">
+          <p>📞 123 456 789</p>
+          <p>🏠 EST ,Agadir, Souss Massa</p>
+          <img src="images/restaurant-location.png" alt="" />
+          <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <div id="menu" class="sub-page menu">
+          <div class="menu-item">
+            <h2>Carne</h2>
+            <p>
+              Tomato sauce, Mozarella, Homemade sausage, Bacon, Garlic, Pepper,
+              Chilli
+            </p>
+            <img src="images/pizzas/crema.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Crema</h2>
+            <p>
+              Tomato sauce, Mozarella, Homemade sausage, Bacon, Garlic, Pepper,
+              Chilli
+            </p>
+            <img src="images/pizzas/crema.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Colorato</h2>
+            <p>omato sauce, Mozarella, Onion, Pepper, Champignons, Basil</p>
+            <img src="images/pizzas/colorato.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Disgustoso</h2>
+            <p>Tomato sauce, Bacon, Pineapple, Olives, Basil</p>
+            <img src="images/pizzas/disgustoso.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Pepe</h2>
+            <p>TTomato sauce, Mozarella, Chilli flakes, Olives, Basil</p>
+            <img src="images/pizzas/pepe.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Gamberi</h2>
+            <p>Tomato sauce, Mozarella, Shrimps, Feta cheese, Olives, Basil</p>
+            <img src="images/pizzas/gamberi.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Salsiccia</h2>
+            <p>
+              Tomato sauce, Mozarella, Tomato, Homemade sausage, Garlic, Basil
+            </p>
+            <img src="images/pizzas/carne.png" alt="" />
+          </div>
+          <div class="menu-item">
+            <h2>Pomodoro</h2>
+            <p>Tomato sauce, Mozarella, Tomato, Onion, Feta cheese, Chilli</p>
+            <img src="images/pizzas/pomodoro.png" alt="" />
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        Copyright © 2024 Abdelmoula Ougouzal, Mohamed Izourne
+      </footer>
+
+      <script src="./main.js" type="module"></script>
+    </div>
+  </body>
+</html>
